@@ -15,7 +15,7 @@ body {
     color: #1B1818;
     line-height: 19px;
     font-size: 16px;
-    /* font-family: 'Fira Sans', sans-serif; */
+    
 }
 .container {
     width: 1220px;
@@ -54,4 +54,44 @@ body {
     color: #FEFEFE;
     font-size: 18px;
     line-height: 21px; 
+}
+.top__heading{
+    display: flex; 
+    padding-top: 50px;  
+    padding-bottom: 30px;
+}
+.top__content{
+    text-align: center;
+    padding-top: 90px;
+    width: 50%;
+}
+.top__title {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0 auto 20px;
+    max-width: 455px;
+}
+.top__text{
+    font-size: 24px;
+    line-height: 28px;
+    margin:0 auto 63px;
+    max-width: 470px;
+}
+.application-btn{
+    color: #FEFEFE;
+    text-transform: uppercase;
+    background: #C5AC2D;
+    padding: 16px 19px 15px 18px; 
+    border: 1px solid transparent;
+    transition: all .5s; 
+}
+.application-btn:hover{
+    color: #C5AC2D;
+    background: #FEFEFE;
+    border: 1px solid #C5AC2D;
+}
+.top__slider{
+    width: 50%;
 }
